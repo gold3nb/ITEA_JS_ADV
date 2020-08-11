@@ -1,0 +1,63 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #DCCFCC;
+}
+
+.modal-thre {
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #208080;
+	width: 300px;
+}
+
+.inner-form {
+	margin: 60px 20px 60px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+input {
+	font-size: 20px;
+	padding: 10px;
+	outline: none;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	width: 90%;
+}
+
+.btn {
+	margin-top: 10px;
+	min-height: 50px;
+	font-size: 25px;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	width: 100%;
+}
+
+#formThre p {
+	margin: 0;
+	padding: 0;
+}
+
+span.close {
+	position: absolute;
+	top: -30px;
+	right: -25px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.text-group-1,
+.text-group-2 {
+	height: 45px;
+	margin-top: 5px;
+	text-align: center;
+}
