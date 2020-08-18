@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo List</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<h1>Todo List</h1>
+	<div class="notification">
+		<div class="empty-notification"></div>
+	</div>
+
+	<div class="form-wrap">
+		<form id="form">
+			<div class="input-group">
+				<input type="text" required>
+				<button class="btn">Add Todo</button>
+			</div>
+		</form>
+		<div class="container">
+			<div class="group-2">
+				<h2>Список усіх справ</h2>
+				<ul class="list-group">
+					<li class="list-group-item-empty">
+						<div class="group-span-empty">
+							<span id="empty" class="task-title">Список справ пустий</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="group-1">
+				<h2>Список виконаних справ</h2>
+				<ul class="list-group-complete"></ul>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/todo.js"></script>
+</body>
+</html>
