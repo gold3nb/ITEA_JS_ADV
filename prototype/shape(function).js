@@ -1,9 +1,8 @@
 function shape(...args) {
-	this.args = args;
 	return {
-		type: `${(this.args.length === 4) ? 'Rectangle'
-			: (this.args.length === 3) ? 'Triangle'
-			: (this.args.length > 4) ? `This figure has ${this.args.length} angles` 
+		type: `${(args.length === 4) ? 'Rectangle'
+			: (args.length === 3) ? 'Triangle'
+			: (args.length > 4) ? `This figure has ${args.length} angles` 
 			: 'Incorrect figure'}`,
 
 		getP() {
