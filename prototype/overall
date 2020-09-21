@@ -1,0 +1,3 @@
+- Use tabs or spaces
+- Use strict equality (=== instead of ==)
+- Don't overuse ternary operator - it's hard to debug
