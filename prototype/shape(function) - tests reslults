@@ -1,0 +1,90 @@
+ FAIL  prototype/__tests__/shape(function).test.js
+  Home Work 1.1
+    function "shape"
+      ✓ should be a function (2 ms)
+      ✓ should run without errors
+    result of function "shape"
+      ✓ should be an object
+      ✓ should contain all required properties - "type, getS, getP" (1 ms)
+    result of calling with parameters
+      if called with 4 args
+        ✓ should has rectangle type - when called with 4 args
+        ✕ should return perimeter (2 ms)
+        ✕ should return square (1 ms)
+      if called with 3 args
+        ✓ should has triangle type when called with 3 args
+        ✕ should return perimeter (1 ms)
+        ✕ should return square
+
+  ● Home Work 1.1 › result of calling with parameters › if called with 4 args  › should return perimeter
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 12
+    Received: "P = 12"
+
+      28 |       });
+      29 |       it('should return perimeter', function () {
+    > 30 |         expect(resRec.getP()).toEqual(args.reduce((acc, v) => acc+=v, 0));
+         |                               ^
+      31 |       })
+      32 |       it('should return square', function () {
+      33 |         expect(resRec.getS()).toEqual(args[0]*args[1]);
+
+      at Object.<anonymous> (/Users/andriifrankiv/Development/itea/ITEA_JS_ADV-1/prototype/__tests__/shape(function).test.js:30:31)
+
+  ● Home Work 1.1 › result of calling with parameters › if called with 4 args  › should return square
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 8
+    Received: "S = 8"
+
+      31 |       })
+      32 |       it('should return square', function () {
+    > 33 |         expect(resRec.getS()).toEqual(args[0]*args[1]);
+         |                               ^
+      34 |       })
+      35 |     });
+      36 |
+
+      at Object.<anonymous> (/Users/andriifrankiv/Development/itea/ITEA_JS_ADV-1/prototype/__tests__/shape(function).test.js:33:31)
+
+  ● Home Work 1.1 › result of calling with parameters › if called with 3 args › should return perimeter
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 12
+    Received: "P = 12"
+
+      42 |       });
+      43 |       it('should return perimeter', function () {
+    > 44 |         expect(resTrg.getP()).toEqual(args.reduce((acc, v) => acc+=v, 0));
+         |                               ^
+      45 |       });
+      46 |       it('should return square', function () {
+      47 |         expect(resTrg.getS()).toEqual(args[0]*args[1]/2);
+
+      at Object.<anonymous> (/Users/andriifrankiv/Development/itea/ITEA_JS_ADV-1/prototype/__tests__/shape(function).test.js:44:31)
+
+  ● Home Work 1.1 › result of calling with parameters › if called with 3 args › should return square
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 6
+    Received: "S = 6"
+
+      45 |       });
+      46 |       it('should return square', function () {
+    > 47 |         expect(resTrg.getS()).toEqual(args[0]*args[1]/2);
+         |                               ^
+      48 |       })
+      49 |     });
+      50 |
+
+      at Object.<anonymous> (/Users/andriifrankiv/Development/itea/ITEA_JS_ADV-1/prototype/__tests__/shape(function).test.js:47:31)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 6 passed, 10 total
+Snapshots:   0 total
+Time:        0.735 s, estimated 1 s
