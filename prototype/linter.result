@@ -1,0 +1,6 @@
+/Users/andriifrankiv/Development/itea/ITEA_JS_ADV-1/prototype/shape.js
+   4:2  error  Mixed spaces and tabs                          no-mixed-spaces-and-tabs
+   5:2  error  Mixed spaces and tabs                          no-mixed-spaces-and-tabs
+  28:7  error  'result' is assigned a value but never used    no-unused-vars
+  67:7  error  'triangle' is assigned a value but never used  no-unused-vars
+  68:7  error  'square' is assigned a value but never used    no-unused-vars
